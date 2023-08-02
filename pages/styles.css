@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin:auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+img#logo {
+    width: 910px;
+    height: 183px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    background: transparent;
+}
+#che {
+    width: 5%;
+}
+label {
+    width: 90px;
+    display: inline-block;
+}
+
+label {
+    margin-left: 10px;
+}
+input {
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: solid 1px #050505;
+    color: #0e0d0d;
+    font-size: 16px;
+}
+input:focus{
+    border: none;
+    border-bottom: solid 1px #000000;
+    outline: none;
+}
+
+.whatsapp-icon {
+    display: flex;
+    align-items: center;
+}
+
+.whatsapp-icon img {
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+}
+
+button {
+    padding: 8px 40px;
+    background: #E6E6E6;
+    border: none;
+    border-radius: 3px;
+    margin-top: 15px;
+    display: block;
+    box-shadow: 0 0 12px #E6E6E6;
+    cursor: pointer;
+}
+
+#resultado {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+footer {
+    text-align: center;
+}
